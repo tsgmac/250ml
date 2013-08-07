@@ -1,0 +1,15 @@
+﻿@if(Request.IsAuthenticated) {
+    <p>Welcome <strong>@User.Identity.Name</strong>!
+    [ @Html.ActionLink("Log Off", "LogOff", "Account") ]
+    
+        <ul>Rollen
+        @foreach (string role in Roles.GetRolesForUser())
+        {
+            <li>@role</li>
+        }
+        </ul>
+    </p>
+}
+else {
+    @:[ @Html.ActionLink("Log On", "LogOn", "Account") ]
+}

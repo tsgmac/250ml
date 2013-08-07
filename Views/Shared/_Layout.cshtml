@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<head>
+  <title>partyrating.de - @ViewBag.Title</title>
+  <meta charset="UTF-8">
+  
+  <!-- Twitter Bootstrap -->
+  <link rel="stylesheet" href="@Url.Content("~/Content/bootstrap.min.css")" />
+  <link rel="stylesheet" href="@Url.Content("~/Content/250ml.css")" />
+</head>
+
+<body>
+  <div id="wrap">
+  
+    <div id="push_top"></div>
+  
+    <div class="container">
+      <div class="row">
+        <div class="span2">
+          <a href="#" class="box well" id="all_events">all events</a>
+        </div>
+      
+        <div class="span4">
+          <a href="#" class="box well" id="calendar">calendar</a>
+        </div>
+      
+        <div class="span2">
+          <a href="#" class="box well" id="your_events">your events</a>
+        </div>
+      
+        <div class="span2">
+          <a href="#" class="box well" id="free">free to fill</a>
+        </div>
+      
+        <div class="span2">
+          <a href="#" class="box well" id="your_settings">your settings</a>
+        </div>
+      </div> <!-- 1st row -->
+    
+      <div class="row">
+         <!-- sidebar -->
+        <div class="span2">
+          <div class="well">
+            @Html.Partial("_LogOnPartial")
+          </div>
+        </div> <!-- sidebar -->
+      
+        <!-- content -->
+        <div class="span10">
+          <div class="well">
+            @RenderBody()
+          </div>
+        </div>
+      </div> <!-- 2nd row -->
+    
+    </div> <!-- container -->
+    
+    <div id="push"></div>
+  </div> <!-- #wrap -->
+    
+  <div id="footer">
+    <div class="container">
+      <p class="well well-small">
+        <strong>partyrating.de</strong> - 250ml edition
+    
+      <span class="pull-right">
+        <a href="#">faq</a>&nbsp;|
+        <a href="#">about</a>&nbsp;|
+        <strong><a href="#">contact</a></strong>
+      </span>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+c:\users\a\documents\visual studio 2010\Projects\250ml\250ml\bin\250ml.dll
+c:\users\a\documents\visual studio 2010\Projects\250ml\250ml\bin\250ml.pdb
+c:\users\a\documents\visual studio 2010\Projects\250ml\250ml\bin\EntityFramework.dll
+c:\users\a\documents\visual studio 2010\Projects\250ml\250ml\bin\EntityFramework.xml
+c:\users\a\documents\visual studio 2010\Projects\250ml\250ml\obj\Debug\ResolveAssemblyReference.cache
+c:\users\a\documents\visual studio 2010\Projects\250ml\250ml\obj\Debug\250ml.dll
+c:\users\a\documents\visual studio 2010\Projects\250ml\250ml\obj\Debug\250ml.pdb
+C:\Users\a\Documents\Visual Studio 2010\Projects\250ml_\250ml\bin\250ml.dll
+C:\Users\a\Documents\Visual Studio 2010\Projects\250ml_\250ml\bin\250ml.pdb
+C:\Users\a\Documents\Visual Studio 2010\Projects\250ml_\250ml\bin\EntityFramework.dll
+C:\Users\a\Documents\Visual Studio 2010\Projects\250ml_\250ml\bin\EntityFramework.xml
+C:\Users\a\Documents\Visual Studio 2010\Projects\250ml_\250ml\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\a\Documents\Visual Studio 2010\Projects\250ml_\250ml\obj\Debug\250ml.dll
+C:\Users\a\Documents\Visual Studio 2010\Projects\250ml_\250ml\obj\Debug\250ml.pdb
