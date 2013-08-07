@@ -12,3 +12,9 @@ C:\Users\a\Documents\Visual Studio 2010\Projects\250ml_\250ml\bin\EntityFramewor
 C:\Users\a\Documents\Visual Studio 2010\Projects\250ml_\250ml\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\a\Documents\Visual Studio 2010\Projects\250ml_\250ml\obj\Debug\250ml.dll
 C:\Users\a\Documents\Visual Studio 2010\Projects\250ml_\250ml\obj\Debug\250ml.pdb
+C:\Users\schlepper\Documents\HTW\DotNET-Konzepte\Projekt\GitHub\250ml\bin\250ml.dll
+C:\Users\schlepper\Documents\HTW\DotNET-Konzepte\Projekt\GitHub\250ml\bin\250ml.pdb
+C:\Users\schlepper\Documents\HTW\DotNET-Konzepte\Projekt\GitHub\250ml\bin\EntityFramework.xml
+C:\Users\schlepper\Documents\HTW\DotNET-Konzepte\Projekt\GitHub\250ml\obj\Debug\250ml.csprojResolveAssemblyReference.cache
+C:\Users\schlepper\Documents\HTW\DotNET-Konzepte\Projekt\GitHub\250ml\obj\Debug\250ml.dll
+C:\Users\schlepper\Documents\HTW\DotNET-Konzepte\Projekt\GitHub\250ml\obj\Debug\250ml.pdb
