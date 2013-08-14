@@ -1,0 +1,63 @@
+﻿@model IEnumerable<_250ml.Models.Events>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+            name
+        </th>
+        <th>
+            description
+        </th>
+        <th>
+            startdate
+        </th>
+        <th>
+            enddate
+        </th>
+        <th>
+            ratingSum
+        </th>
+        <th>
+            ratingCount
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.startdate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.enddate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ratingSum)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ratingCount)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+        </td>
+    </tr>
+}
+
+</table>

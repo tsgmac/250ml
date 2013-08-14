@@ -1,0 +1,48 @@
+﻿@model _250ml.Models.Events
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>Events</legend>
+
+    <div class="display-label">name</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.name)
+    </div>
+
+    <div class="display-label">description</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.description)
+    </div>
+
+    <div class="display-label">startdate</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.startdate)
+    </div>
+
+    <div class="display-label">enddate</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.enddate)
+    </div>
+
+    <div class="display-label">ratingSum</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ratingSum)
+    </div>
+
+    <div class="display-label">ratingCount</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ratingCount)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}

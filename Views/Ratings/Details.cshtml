@@ -1,0 +1,30 @@
+﻿@model _250ml.Models.Ratings
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Ratings</legend>
+
+    <div class="display-label">rating</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.rating)
+    </div>
+
+    <div class="display-label">comment</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.comment)
+    </div>
+
+    <div class="display-label">username</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.username)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,45 @@
+﻿@model _250ml.Models.Events
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Events</legend>
+
+    <div class="display-label">name</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.name)
+    </div>
+
+    <div class="display-label">description</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.description)
+    </div>
+
+    <div class="display-label">startdate</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.startdate)
+    </div>
+
+    <div class="display-label">enddate</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.enddate)
+    </div>
+
+    <div class="display-label">ratingSum</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ratingSum)
+    </div>
+
+    <div class="display-label">ratingCount</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ratingCount)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
